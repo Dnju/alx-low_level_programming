@@ -1,4 +1,4 @@
-#include 'main.h'
+#include <unistd.h>
 /**
  *main - prints the "putchar" from a character array.
  *
