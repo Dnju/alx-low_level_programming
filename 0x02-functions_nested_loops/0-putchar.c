@@ -1,18 +1,18 @@
 #include <unistd.h>
 /**
- *main - prints the "putchar" from a character array.
+ *_putchar - writes the character c to stdout
  *
- *Return: 0 on success.
+ *@c: The character to print
+ *
+ *Return: On success 1.
+ *
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
+
+int _putchar(char c)
+
 {
 
-char c[] = "Holberton";
-int x;
+	return (write(1, &c, 1));
 
-for (x = 0; x < 9; x++)
-{
-           _putchar(c[x]);							}
-                         _putchar('\n');
-	
- return (0);
+}
