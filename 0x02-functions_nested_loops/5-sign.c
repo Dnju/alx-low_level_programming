@@ -2,7 +2,7 @@
 /**
 *print_sign - Prints the sign of a number.
 *
-* @n: The number of which the sign will be printed.
+*@n: The number of which the sign will be printed.
 *
 *Return: 1 if the number is greater than zero,
 *
@@ -21,7 +21,7 @@ int print_sign(int n)
 	else if (n == 0)
 	{
 		_putchar('0');
-	return (0);
+		return (0);
 	}
 	else
 	{
