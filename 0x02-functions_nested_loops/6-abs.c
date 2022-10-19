@@ -1,7 +1,6 @@
 /** 
 *File: 6-abs.c
-*
-*Auth: Brennan D Baraban
+*Auth: David Njuguna
 */
 #include "main.h"
 /**
@@ -12,7 +11,6 @@
 *Return: The absolute value of the integer.
 */
 int _abs(int n)
-
 {
 	if (n >= 0)
 		return (n);
