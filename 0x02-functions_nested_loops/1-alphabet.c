@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* main -  prints the english alphabet from a-z.
+*main -  prints the english alphabet from a-z.
 *
 *return: Nothing
 */
@@ -10,5 +10,4 @@ char x;
 for (x = 'a'; x <= 'z'; x++)
 _putchar(x);
 _putchar ('\n');
-
 }	
