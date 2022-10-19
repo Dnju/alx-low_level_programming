@@ -1,4 +1,4 @@
-/** 
+/*
 *File: 6-abs.c
 *Auth: David Njuguna
 */
