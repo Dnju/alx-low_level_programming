@@ -1,8 +1,8 @@
 /*
 *File: 10-add.c
-*Auth: Brennan D Baraban
+*Auth: David Njuguna
 */
-#include "holberton.h"
+#include "main.h"
 /**
 *add - Adds two integers.
 *@num1: The first integer to be added.
