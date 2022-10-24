@@ -18,6 +18,7 @@ int main(void)
 			x = x / y;
 		}
 	}
+
 	printf("%lu", y);
 	putchar('\n');
 	retur(0);
