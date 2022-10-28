@@ -1,22 +1,18 @@
 #include "main.h"
 /**
-*string_toupper - Function that reverses the content of an array of integers.
+*string_toupper - this fuction print in uppercase whit ascii code.
 *
-*@s: s is the array
+* @str: is the string to comparate.
 *
-*Return: Always 0.
+* Return: i.
 */
-char string_toupper(char *s)
+char *string_toupper(char *str)
 {
-	int i = 0;
+	char *i = str;
 
-	while (s[i] != '\0')
-	{
-		if ((s[i] >= 97) && (s[i] <= 122))
-		{
-			s[i] = s[i] - 32;
-		}
-	i++;
-	}
-	return (s);
+	for (; *str != '\0'; str++)
+		if (*str >= 97 && *str <= 122)
+			*str -= 32;
+	return (i);
 }
+
