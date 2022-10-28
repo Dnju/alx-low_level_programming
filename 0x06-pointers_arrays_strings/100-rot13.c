@@ -16,6 +16,6 @@ char *rot13(char *s)
 			*s = (*s - offset + 13) % 26 + offset;
 		s++;
 	}
-	
+
 	return (r);
 }
