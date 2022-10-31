@@ -1,19 +1,23 @@
-/**
-*infinite_add - add two string numbers
-*@n1: string number to add to n2
-*@n2: string number to add to n1
-*@r: buffer to store the sum
-*@size_r: size of buffer
-*return: pointer to sum or 0 if it does not fit in r
-*/
-char *infinite_add(char *n1, char *n2, char *r, int size_r)
-{
-	int len1 = 0, len2 = 0, lenS = 0;
+#include <stdio.h>
 
-	while (*(n1 + len1++))
-		;
-	while (*(n2 + len2++))
-		;
-	printf("%d, %d\n", len1, len2);
-	return (r);
+int main(void)
+{
+	int n;
+	int a[5];
+	int *p;
+
+	a[2] = 1024;
+	p = &n;
+/*
+*write your line of code here...
+*Remember
+* - you are not allowed to use a
+* - you are not allowed to modify
+* - only one statement
+* - you are not allowed to code anything else than this line of code
+*/
+*(p + 5) = 98;
+/*...so that this prints 98\n*/
+printf("a[2] = %d\n", a[2]);
+return (0);
 }
