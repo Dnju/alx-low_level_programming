@@ -1,4 +1,3 @@
-include "main.h"
 /**
 *recurse - palindrome check
 *@start: character to check with end
