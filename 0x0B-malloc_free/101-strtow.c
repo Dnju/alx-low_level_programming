@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
 *_strcmp - Like strcmp.
 *@s1: string.
@@ -22,12 +21,10 @@ int _strcmp(char *s1, char *s2)
 	}
 	return (0);
 }
-
 /**
 *_strlen - Find the lenght of a string.
 *@s: String.
 *@i: Position.
-*
 *Return: The lenght, integer.
 */
 int _strlen(char *s, int i)
@@ -41,7 +38,6 @@ int _strlen(char *s, int i)
 	}
 	return (count);
 }
-
 /**
 *words - Count the numbers of words.
 *@str: String.
@@ -67,7 +63,6 @@ int words(char *str)
 	}
 	return (count);
 }
-
 /**
 *_strcpy - Copy elements from a string to another.
 *@s: String.
@@ -87,11 +82,9 @@ char *_strcpy(char *s, int i, char *tmp)
 
 	return (tmp);
 }
-
 /**
 *strtow - Extract all the words from an string.
 *@str: String.
-*
 *Return: Array of words.
 */
 char **strtow(char *str)
